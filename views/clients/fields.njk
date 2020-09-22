@@ -1,0 +1,109 @@
+        <div class="item">
+        <div>Nome</div>    
+        <input 
+            type="text"
+            name="name"
+            placeholder="Ex: Guilherme Santana"
+            value="{{ client.name }}"
+            >   
+        </div>
+
+        <div class="item">
+        <div>Email</div> 
+        <div>   
+        <input 
+            type="email"
+            name="email"
+            placeholder="Ex.guidasilva@gmail.com"
+            value="{{ client.email }}"
+            >   
+        </div>
+    </div>
+        
+        <div class="item">
+        <div>CPF ou CNPJ</div> 
+        <div>   
+        <input 
+            type="tel"
+            name="cpf"
+            placeholder="EX.123.456.789-12"
+            value="{{ client.cpf }}"
+            >   
+        </div>
+    </div>
+
+        <div class="item">
+        <div>Telefone</div> 
+        <div>   
+        <input 
+            type="tel"
+            name="telephone"
+            placeholder="Digite seu Telefone"
+            value="{{ client.telephone }}"
+            >   
+        </div>
+    </div>
+
+        <div class="item">
+        <div>CEP</div>   
+        <div> 
+        <input 
+            type="tel"
+            name="code"
+            placeholder="Digite seu CEP"
+            value="{{ client.code }}"
+            >   
+        </div>
+    </div>
+
+
+        <div class="item">
+        <div>Logradouro</div>
+        <div>    
+        <input 
+            type="text"
+            name="place"
+            placeholder="Ex: Apartamento"
+            value="{{ client.place }}"
+            >   
+        </div>
+    </div>
+
+        <div class="item">
+        <div>Número</div> 
+        <div>   
+        <input 
+            type="Number"
+            name="number" 
+            value="{{ client.number }}"     
+            >   
+        </div>
+    </div>
+
+        <div class="item">
+        <div>Bairro</div> 
+        <div>   
+        <input 
+            type="text"
+            name="district"
+            placeholder="Digite o seu Bairro"
+            value="{{ client.district }}"      
+            >   
+        </div>
+    </div>
+
+        <div class="item">
+        <div>Cidade</div>
+        <div>    
+        <input 
+            type="city"
+            name="city"
+            placeholder="Digite o nome da sua cidade"  
+            value="{{ client.city }}"    
+            >   
+        </div>
+    </div>
+    <button class="create" type="submit">Salvar Cadastro</button>
+
+   
+

@@ -1,0 +1,38 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+    <form class="card" method="POST" action="/clients?_method=PUT">
+    <section class="create">
+
+        <h2>Editar Cadastro</h2>
+
+        {% include 'clients/fields.njk' %}
+
+
+
+        <input type="hidden" name="id" value={{client.id}}>
+
+      
+        </form>
+
+    <form id="form-delete" action="/clients?_method=DELETE" method="post">
+        <input type="hidden" name="id" value={{client.id}}>
+        <button type="submit">Deletar</button>
+    </form>
+
+    <script>               
+    
+        const formDelete = document.querySelector("#form-delete")
+        formDelete.addEventListener("submit", function (event) {
+            const confirmation = confirm("Deseja Deletar?")
+            if (!confirmation) {
+                event.preventDefault()
+            }
+        })   
+    </script>
+
+    </section>
+
+    
+
+{% endblock content %}

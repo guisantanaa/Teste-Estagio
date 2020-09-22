@@ -1,0 +1,62 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+    <form class="card">
+    <section class="details">
+    <header>
+        <a class="go" href="/clients">Pagina inicial</a>
+        <h2>Dados do cadastro</h2>
+    </header>
+    <div class="item">
+        <div class="info">Nome</div>    
+        <div>{{ client.name }}</div>
+    </div>
+
+    <div class="item">
+        <div class="info">Email</div> 
+        <div>{{ client.email }}</div>
+    </div>
+        
+    <div class="item">
+        <div class="info">CPF ou CNPJ</div> 
+        <div>{{ client.cpf }}</div>
+    </div>
+
+    <div class="item">
+        <div class="info">Telefone</div> 
+        <div>{{ client.telephone }}</div>
+    </div>
+
+    <div class="item">
+        <div class="info">CEP</div>   
+        <div>{{ client.code }}</div>
+    </div>
+
+
+    <div class="item">
+        <div class="info">Logradouro</div>
+        <div>{{ client.place }}</div>
+    </div>
+
+    <div class="item">
+        <div class="info">Numero</div> 
+        <div>{{ client.number }}</div>
+    </div>
+
+    <div class="item">
+        <div class="info">Bairro</div> 
+        <div>{{ client.district }}</div>
+    </div>
+
+    <div class="item">
+        <div class="info">Cidade</div>
+        <div>{{ client.city }}</div>
+    </div>
+
+    </section>
+
+    <a href="/clients/{{ client.id }}/edit" class="button">Editar</a>
+        
+    </form>
+
+{% endblock content %}

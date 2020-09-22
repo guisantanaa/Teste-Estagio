@@ -1,0 +1,20 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+    <form class="card" method="POST" action="/clients">
+    <section class="create">
+    <header>
+        <a class="go" href="/clients">Pagina inicial</a>
+    </header>
+    
+        <h1>Novo Cadastro</h1>
+
+        {% include 'clients/fields.njk' %}
+
+     
+
+    </section>
+        
+    </form>
+
+{% endblock content %}
