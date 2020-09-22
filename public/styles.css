@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: 'bold' sans-serif;
+    
+}
+
+body {
+    background-color: #62f5c4;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+    
+}
+
+header {
+    display: flex;
+}
+
+h1 {
+    color: black;
+    font-family: 'Bold', sans-serif; 
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-family: 'Bold', sans-serif;
+    text-align: center;
+    padding-left: 4rem;
+}
+
+
+form {
+    padding: 10px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;  
+    
+}
+
+input {
+    width: 100%;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 18px;    
+    box-sizing: border-box;
+    border-radius: 05px;
+    margin-bottom: 20px;
+    display: grid;
+    
+}
+
+.card {
+    background-color: whitesmoke;
+    width: 700px;
+    margin: 30px auto;
+    display: grid;
+    border-radius: 5px;
+    box-shadow: 5px 8px 7px -1px rgba(0, 0, 0, 0.4);
+}
+
+.details .item{
+    border-bottom: 2px solid black;
+    padding: 18px 0;
+}
+
+.details .item:last-child {
+    border-bottom: none;
+}
+
+.item {
+    color: #999;
+    font-size: 18px;
+    
+}
+
+.info {
+    color: black;
+    padding: 5px 0px 6px;
+    font-size: 25px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #62f5c4;
+    color: black;
+    padding: 18px;
+    border-radius: 10px;
+    margin: 5px auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color:  #49d6a7;
+    transition: 200ms;
+}
+
+#form-delete button[type="submit"] {
+    background-color: rgb(211, 22, 117);
+}
+
+
+#form-delete button[type="submit"]:hover {
+    background-color: rgb(219, 48, 85);
+}
+
+a.button {
+    width: 90%;
+    background-color: #62f5c4;
+    display: grid;
+    color: black;
+    padding: 18px;
+    border-radius: 10px;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+a.button:hover {
+    background-color: #49d6a7;
+    transition: 200ms;
+}
+
+/* Inicio show  */
+a.go {
+    color: black;
+    background-color: #62f5c4;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'bold' sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+a.go:hover {
+    background-color:  #49d6a7;
+    transition: 200ms;
+}
+
+/* INDEX CLIENTS */
+.table-container {
+    display: block;
+    padding: 50px 10px;
+    box-sizing: border-box;
+    margin-top: 9rem;
+
+    
+}
+
+.table-container table {
+    border-spacing: 2;
+}
+
+.table-container thead tr th {
+    text-align: left;
+    font-family: 'bold' sans-serif;
+    
+
+}
+
+td, th {
+    padding: 22px 08px;
+    
+    border-bottom: 1px solid #b4afaf;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+tbody tr:last-child td {
+    border: none;
+}
+
+tbody tr td:first-child {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    align-items: center;
+
+}
+
+tbody tr td:first-child span {
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 3px 1px 6px -4px black;
+    border: 2px solid white;
+    font-family: sans-serif;
+}
+
+tbody tr td:last-child a,
+.table-container > a {
+    background-color:  #62f5c4;
+    padding: 10px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: sans-serif;
+
+}
+
+.table-container > a {
+    margin-bottom: 18px;
+    display: inline-block;
+}
+
+.table-container thead tr th:last-child,
+td:last-child {
+    text-align: center;
+}
+
+
+
+
