@@ -13,7 +13,7 @@
 # COMO RODAR A APLICAÇÃO
 
 <p>Para rodar a aplicação no seu navegador, clone esse repósitorio no seu terminal usando 
-<b>git clone https://github.com/santaba/Teste-Estagio.git</b>  
+<p><b>git clone https://github.com/santaba/Teste-Estagio.git</b></p>  
 depois de ter clonado basta abrir o seu terminal, se for do VS CODE Ctrl J para abrir, depois 
 de ter visualizado o terminal aberto, der o comando "npm start" dentro do terminal, após esse processo a aplicação será aberta no seu navegador</p>
 
